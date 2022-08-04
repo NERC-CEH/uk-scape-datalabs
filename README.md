@@ -23,9 +23,9 @@ To use the DataLabs platform, you would need to first get an account with DataLa
 
 3. Click on "Open" tab for the UKSCAPE Water Project.
 
-4.Click on "Notebooks" tab, in the left hand side panel under "Analysis" section.
+4. Click on "Notebooks" tab, in the left hand side panel under "Analysis" section.
 
-5. Click on the "Create Notebooks" tab, on the right side of the webpage. This will create a JupyterLab for you, which can host multiple notebooks. Fill in the options as per step 6 below.
+5. Click on the "Create Notebooks" tab, on the right side of the webpage. This will create a JupyterLab for you, which can host multiple notebooks.
 
 6. Fill in the following information in the pop up, scroll down if required. 
   * *Display Name* - anything that you like
@@ -56,7 +56,7 @@ To use the DataLabs platform, you would need to first get an account with DataLa
 13. In the terminal, please type or copy and paste (using CTRL C + CTRL V) the following commands (followed by return/enter key). Exchange {NAME} in the first command with your jupterlab URL name you created from step 6. You can also find this {NAME} in your JupyterLab web browser address, i.e. the word before the "/lab" (shown using the red box). Use the following command with the curly brackets {} for {NAME}.
   * **cd /data/notebooks/jupyterlab-{NAME}/**
   * **ls**
-  * **git clone --recursive https://github.com//NERC-CEH/uk-scape-datalabs.git**
+  * **git clone --recursive https://github.com/NERC-CEH/uk-scape-datalabs.git**
   * **ls**
     If the all the commands are successful, the result of the last command should show a "uk-scape-datalabs" directory below the command prompt.
 
