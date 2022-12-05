@@ -21,13 +21,15 @@ To use the DataLabs platform, you would need to first get an account with DataLa
 
 2. Log in to the ceh-datalab-webpage with your created username and password. 
 
-3. Click on "Open" tab for the UKSCAPE Water Project.
+3. You will need to request access to the UKSCAPE Water Project by emailing [Gemma Nash](mailto:gvp@ceh.ac.uk).
 
-4. Click on "Notebooks" tab, in the left hand side panel under "Analysis" section.
+4. When you have been given access, click on "Open" tab for the UKSCAPE Water Project.
 
-5. Click on the "Create Notebooks" tab, on the right side of the webpage. This will create a JupyterLab for you, which can host multiple notebooks.
+5. Click on "Notebooks" tab, in the left hand side panel under "Analysis" section.
 
-6. Fill in the following information in the pop up, scroll down if required. 
+6. Click on the "Create Notebooks" tab, on the right side of the webpage. This will create a JupyterLab for you, which can host multiple notebooks.
+
+7. Fill in the following information in the pop up, scroll down if required. 
   * *Display Name* - anything that you like
   * *Type* - select "JupyterLab" option
   * *URL Name* - any word (ideally similar to the Display Name without any space, dashes or underscore)
@@ -38,31 +40,31 @@ To use the DataLabs platform, you would need to first get an account with DataLa
 
    Then click on the "Create" tab at the bottom. 
     
-7. You should then see a new lab in your "Notebooks" page, with a blue "Requested" tab. Please wait, this should turn into a green "Ready" tab in a few minutes (you may need to refresh your browser window).
+8. You should then see a new lab in your "Notebooks" page, with a blue "Requested" tab. Please wait, this should turn into a green "Ready" tab in a few minutes (you may need to refresh your browser window).
 
-8. Click on the "Open" tab, associated with your newly created lab. 
+9. Click on the "Open" tab, associated with your newly created lab. 
 
-9. This opens a new browser tab with your JupyterLab. Sometimes you may see a "Build Recommended" pop up. If it appears, click on the "Build" button. 
+10. This opens a new browser tab with your JupyterLab. Sometimes you may see a "Build Recommended" pop up. If it appears, click on the "Build" button. 
 
 <a id="importing_repository"></a>
 ### ii. Importing the GitHub repository into DataLabs
 
-10. Once you are in your JupyterLab in the new browser, scroll completely down in the "Launcher" section.
+11. Once you are in your JupyterLab in the new browser, scroll completely down in the "Launcher" section.
 
-11. After you scroll down you can see a "Terminal" tab in the "Other" section of the launcher. Double click on the "Terminal" tab.
+12. After you scroll down you can see a "Terminal" tab in the "Other" section of the launcher. Double click on the "Terminal" tab.
 
-12. This opens up a new "Terminal" in your launcher section with a command line prompt
+13. This opens up a new "Terminal" in your launcher section with a command line prompt
 
-13. In the terminal, please type or copy and paste (using CTRL C + CTRL V) the following commands (followed by return/enter key). Exchange {NAME} in the first command with your jupterlab URL name you created from step 6. You can also find this {NAME} in your JupyterLab web browser address, i.e. the word before the "/lab" (shown using the red box). Use the following command with the curly brackets {} for {NAME}.
+14. In the terminal, please type or copy and paste (using CTRL C + CTRL V) the following commands (followed by return/enter key). Exchange {NAME} in the first command with your jupterlab URL name you created from step 6. You can also find this {NAME} in your JupyterLab web browser address, i.e. the word before the "/lab" (shown using the red box). Use the following command with the curly brackets {} for {NAME}.
   * **cd /data/notebooks/jupyterlab-{NAME}/**
   * **ls**
   * **git clone --recursive https://github.com/NERC-CEH/uk-scape-datalabs.git**
   * **ls**
     If the all the commands are successful, the result of the last command should show a "uk-scape-datalabs" directory below the command prompt.
 
-14. The previous step imports the UK-SCAPE data-labs GitHub repository to your DataLabs JupyterLab. You will also see a "uk-scape-datalabs" directory apprear in the File Browser panel on the left of your screen. After the "uk-scape-datalabs" directory shows up in your File Browser panel, go ahead and close the "Terminal 1" by clicking on the cross button next to it.
+15. The previous step imports the UK-SCAPE data-labs GitHub repository to your DataLabs JupyterLab. You will also see a "uk-scape-datalabs" directory apprear in the File Browser panel on the left of your screen. After the "uk-scape-datalabs" directory shows up in your File Browser panel, go ahead and close the "Terminal 1" by clicking on the cross button next to it.
 
-15. If you double-click on the "uk-scape-datalabs" directory, in the File Browser panel, you will see the "python" directory and a "README.md" file which is the current file you are reading. 
+16. If you double-click on the "uk-scape-datalabs" directory, in the File Browser panel, you will see the "python" directory and a "README.md" file which is the current file you are reading. 
 
 <a id="introduction_notebooks"></a>
 ### iii. Introduction to the repository notebooks
