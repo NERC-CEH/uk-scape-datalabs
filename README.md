@@ -55,7 +55,7 @@ To use the DataLabs platform, you would need to first get an account with DataLa
 
 13. This opens up a new "Terminal" in your launcher section with a command line prompt
 
-14. In the terminal, please type or copy and paste (using CTRL C + CTRL V) the following commands (followed by return/enter key). Exchange {NAME} in the first command with your jupterlab URL name you created from step 6. You can also find this {NAME} in your JupyterLab web browser address, i.e. the word before the "/lab" (shown using the red box). Use the following command with the curly brackets {} for {NAME}.
+14. In the terminal, type or copy and paste (using CTRL C + CTRL V) the following commands (followed by return/enter key). Exchange {NAME} in the first command with your jupyterlab URL name you created from step 6. You can also find this {NAME} in your JupyterLab web browser address, i.e. the word before the "/lab". Use the following command with the curly brackets {} for {NAME}. So if your {NAME} is new-project then the URL will be /data/notebooks/jupyterlab-new-project.
   * **cd /data/notebooks/jupyterlab-{NAME}/**
   * **ls**
   * **git clone --recursive https://github.com/NERC-CEH/uk-scape-datalabs.git**
