@@ -60,7 +60,8 @@ To use the DataLabs platform, you would need to first get an account with DataLa
   * **ls**
   * **git clone --recursive https://github.com/NERC-CEH/uk-scape-datalabs.git**
   * **ls**
-    If the all the commands are successful, the result of the last command should show a "uk-scape-datalabs" directory below the command prompt.
+
+ If the all the commands are successful, the result of the last command should show a "uk-scape-datalabs" directory below the command prompt.
 
 15. The previous step imports the UK-SCAPE data-labs GitHub repository to your DataLabs JupyterLab. You will also see a "uk-scape-datalabs" directory apprear in the File Browser panel on the left of your screen. After the "uk-scape-datalabs" directory shows up in your File Browser panel, go ahead and close the "Terminal 1" by clicking on the cross button next to it.
 
